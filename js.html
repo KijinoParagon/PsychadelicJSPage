@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
+		<title>JS Fun</title>
+		<link href="stars.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="starsContainer"></div>
+		
+		<form>
+			Color slide: <input id="colorSlide" type="range" min="1" max="100" step="3" value="10" />
+			X Magnitude: <input id="xMag" type="range" min="1" max="100" step="1" value="10" />
+			Y Magnitude: <input id="yMag" type="range" min="1" max="100" step="1" value="10" />
+			Hue Range: <input id="hueRange" type="range" min="1" max="360" step="3" value="2" />
+			Hue Shift: <input id="hueShift" type="range" min="1" max="360" step="1" value="0" />
+			Star Lifetime: <input id="lifetime" type="range" min="1" max="20" step="1" value="2" />
+		</form>
+		<p class="textcontent">hello</p>
+		<p class="textcontent" id="hello">darkness</p>
+		<p class="textcontent">my old</p>
+		<p class="textcontent">friend</p>
+		
+		<div id="js" class="clock">
+		
+		</div>
+		
+		<!--script>
+			hello = '';
+			getData = location.search.split("?");	//Get the get request with location.search
+			console.log(getData);					//
+			getData = getData[1].split("&");
+			console.log(getData);
+			getData.forEach(newFunc);
+			function newFunc(string)
+			{
+				
+				newString = string.split("=");
+				if (newString[0] == "hello")
+				{
+					hello = newString[1];
+				}
+				//document.getElementsByTagName("div")[1].textContent += "\n" + newString[1];
+			}
+			document.getElementsByTagName("div")[1].textContent = hello;
+			
+		</script-->
+		
+		<script src="js.js">
+		</script>
+		
+		<button type="button">Hello</button>
+		
+		
+		
+		
+		
+		<div>
+			<p>ABCDEFG</p>
+		</div>
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
